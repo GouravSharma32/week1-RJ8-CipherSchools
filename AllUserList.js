@@ -7,14 +7,14 @@ const AllUserList = () => {
 
 // class AllUserList extends React.Component {
     const [state, setState] = useState({
-        name: "Ujjwal Bhardwaj",
+        name: "Gourav Sharma",
     });
 
         // allusers = [    
     let allUsers = [
-      { name: "Ujjwal", email: "ujjwal@email.com",phoneNumber: "+91-9876543210"},
-      { name: "Shreyus", email: "shreyus@email.com", phoneNumber: "+91-8597463210"},
-      { name: "John", email: "nilanjan@email.com", phoneNumber: "+91-6598743212"},
+      { name: "Gourav", email: "Gourav@email.com",phoneNumber: "+91-9723319069"},
+      { name: "Jatin", email: "jatin@email.com", phoneNumber: "+91-7869503121"},
+      { name: "nilanjan", email: "nilanjan@email.com", phoneNumber: "+91-6598743212"},
     ];
 
     // let array = [
@@ -31,7 +31,7 @@ const AllUserList = () => {
 
     // render() {
     //     setTimeout(() => {
-    //         this.setState({ name: "Ujjwal kr Bhardawj"});
+    //         this.setState({ name: "Gourav Sharma"});
     //     }, 15000);
     // }
 
@@ -61,7 +61,7 @@ const AllUserList = () => {
 
 // const AllUserList = () => {
 //     // let xyz = useState(); // xyz is an array which contains 2 things, xyz[0], is state and xyz(1) is setter function
-//     const [state, setState] = useState({ name: "Ujjwal Bhardwaj"});
+//     const [state, setState] = useState({ name: "Gourav Sharma"});
 
 //     return <h1>The name is {state.name}</h1>;
 // };
